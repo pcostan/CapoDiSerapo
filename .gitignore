@@ -3,3 +3,6 @@ _db_backups
 
 cgi/*
 stats/*
+
+test2/sites/all/themes/bootstrap/capodiserapo/.sass-cache/*
+test2/sites/all/themes/bootstrap/capodiserapo/.sass-cache
