@@ -5905,8 +5905,12 @@ a.badge:hover {
 <<<<<<< HEAD
   background: rgba(0, 0, 0, 0.3);
 =======
+<<<<<<< HEAD
+  background: rgba(0, 0, 0, 0.3);
+=======
   background: rgba(0, 0, 0, 0.75);
 >>>>>>> f38005670a979b8a0bceb2295346619552f8c514
+>>>>>>> FETCH_HEAD
 }
 
 .carousel-caption h4,
