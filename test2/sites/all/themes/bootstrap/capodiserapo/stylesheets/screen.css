@@ -142,6 +142,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 7, ../sass/_layout.scss */
 .left-col {
+  width: 49.15254%;
   float: right;
   margin-right: 0;
   *margin-left: -1em;
@@ -150,5 +151,5 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 11, ../sass/_layout.scss */
 footer {
-  background-color: black;
+  background-color: #CCC;
 }

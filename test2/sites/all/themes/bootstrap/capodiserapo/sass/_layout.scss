@@ -2,12 +2,12 @@
 
 
 .right-col {
-  @include span-columns(6, 12)
+  @include span-columns (6, 12);
 }
 .left-col {
-  @include omega;
+  @include span-columns (6 omega, 12);
 }
 
 footer {
-  background-color: black;
+  background-color: #CCC;
 }
