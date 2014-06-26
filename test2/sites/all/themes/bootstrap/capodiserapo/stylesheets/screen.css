@@ -137,6 +137,22 @@ p {
   margin-bottom: 0.5em;
 }
 
+/* line 22, ../sass/_base.scss */
+h1 {
+  font-size: 26px;
+  line-height: 30px;
+  font-size: 2.6rem;
+  line-height: 3rem;
+}
+
+/* line 25, ../sass/_base.scss */
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
 /* line 4, ../sass/_layout.scss */
 .right-col {
   width: 49.15254%;

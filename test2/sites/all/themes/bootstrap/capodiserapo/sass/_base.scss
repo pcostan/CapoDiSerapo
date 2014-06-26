@@ -18,3 +18,10 @@
 p {
   margin-bottom: 0.5em;
 }
+
+h1 {
+  @include font-size (26, 30); 
+}
+h2 {
+  @include font-size (24, 28); 
+}
