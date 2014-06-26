@@ -1,0 +1,3 @@
+Changes made to bootstrap.min.js
+
+"ontouchstart" changed to "disable-ontouchstart"

@@ -1,5 +1,19 @@
 // layout
 
+.navbar-fixed-top, 
+.navbar-fixed-bottom, 
+.navbar-static-top {
+    margin: 0;
+    position: none;
+}
+
+.breadcrumb {
+  display: none;
+}
+
+.container {
+  @include container;
+}
 
 .right-col {
   @include breakpoint ($tablet, $no-query) {

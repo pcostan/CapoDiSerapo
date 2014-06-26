@@ -155,8 +155,38 @@ h2 {
   margin-bottom: 0.5em;
 }
 
+/* line 5, ../sass/_layout.scss */
+.navbar-fixed-top,
+.navbar-fixed-bottom,
+.navbar-static-top {
+  margin: 0;
+  position: none;
+}
+
+/* line 10, ../sass/_layout.scss */
+.breadcrumb {
+  display: none;
+}
+
+/* line 14, ../sass/_layout.scss */
+.container {
+  *zoom: 1;
+  max-width: 74.1em;
+  _width: 74.1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media (min-width: 768px) {
-  /* line 4, ../sass/_layout.scss */
+  /* line 18, ../sass/_layout.scss */
   .right-col {
     width: 48.98785%;
     float: left;
@@ -166,7 +196,7 @@ h2 {
 }
 
 @media (min-width: 768px) {
-  /* line 9, ../sass/_layout.scss */
+  /* line 23, ../sass/_layout.scss */
   .left-col {
     width: 48.98785%;
     float: right;
@@ -176,7 +206,7 @@ h2 {
   }
 }
 
-/* line 15, ../sass/_layout.scss */
+/* line 29, ../sass/_layout.scss */
 footer {
   background-color: #CCC;
 }
