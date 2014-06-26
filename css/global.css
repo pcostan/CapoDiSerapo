@@ -7,7 +7,7 @@ body {
         padding-bottom: 40px;
 		background-color: #002;
       }
-	  
+
 /* Headers */
 
 h1,
@@ -40,11 +40,11 @@ h6 small {
 h1,
 h2,
 h3 {
-  line-height: 40px;
+  line-height: 30px;
 }
 
 h1 {
-  font-size: 38.5px;
+  font-size: 27.5px;
 }
 
 h2 {
@@ -52,7 +52,7 @@ h2 {
 }
 
 h3 {
-  font-size: 24.5px;
+  font-size: 22.5px;
 }
 
 div.modal-header h3 {
@@ -64,7 +64,7 @@ div.modal-header h3 {
     position: relative;
     top: 10px;
 	}
-	
+
 .box-promo div.view {
 	margin-top:10px;
 	}
@@ -95,7 +95,7 @@ h3 small {
 
 h4 small {
   font-size: 14px;
-}
+  }
 
 .header-sm {
 	font-size:30px;
@@ -107,84 +107,114 @@ h4 small {
 .orange {
 	color:#CC9C3D;
 	}
-	
+
 .blue {
 	color:#070845;
 	}
-	
+
 /* Layout */
 
 a.brand img {
 	width: 195px;
 	height:auto;
 	}
-	
+
 .top-bottom-lines {
 	border-top: 1px solid #CC9C3D;
 	padding-top:1px;
 	border-bottom: 3px solid #CC9C3D;
 	margin-bottom: 30px;
+	background-color: #070845;
 	}
-	
+
+#homepage .top-bottom-lines {
+	border-top: 1px solid #CC9C3D;
+	padding-top:1px;
+	margin-bottom: 30px;
+	background-color: #070845;
+	border-bottom:0;
+	}
+
 .hero-unit {
 	color:#FFF;
 	text-shadow: 2px 2px 2px #000000;
-    filter: dropshadow(color=#000000, offx=2, offy=2);
+   filter: dropshadow(color=#000000, offx=2, offy=2);
 		}
-	
+
 .hero-unit.image1 {
 	background-image:url(../img/homepage1.jpg);
 	background-size:100% auto;
 	background-repeat:no-repeat;
 	background-position: 0 -250px;
-	
+
 	}
-	
+
 .hero-unit.image2 {
 	background-image:url(../img/homepage2.jpg);
 	background-size:100% auto;
 	background-repeat:no-repeat;
-	
+
 	}
-	
+
 .hero-unit.image3 {
 	background-image:url(../img/homepage3.jpg);
 	background-size:100% auto;
 	background-repeat:no-repeat;
 	}
-	
+
+.carousel {
+	background-color: #070845;
+	margin-bottom: 17px;
+}
+
 .carousel-caption	{
 	bottom: 0;
     float: right;
     height: 35%;
     left: 50%;
     right: 0;
-    top: 40%;
+    top: 128px;
     width: 40%;
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
 	-o-border-radius:10px;
 	border-radius:10px;
+	background:none!important;
+	color:#000!important;
 		}
-		
+
+	.lead{
+	color:#000!important;
+	font-size:40px;
+	font-weight:bold;
+	line-height:40px;
+	text-shadow: 2px 2px 2px #FFF;
+   filter: dropshadow(color=#FFF, offx=2, offy=2);
+	}
+
+	p.lead {
+	font-family: 'Sorts Mill Goudy', serif;
+	line-height:44px!important;
+	}
+
 .navbar div.navbar-inner div.container a.brand {
 	position:absolute;
 	left:40%;
 	margin-left:0;
 	}
-	
+
 .navbar div.navbar-inner div.container {
 	height:95px;
 	}
-	
-.lead {
-	font-size:18px!important;
-	}
-	
+
 .carousel-caption a.btn {
 	margin-top:10px;
 	}
-	
+
+#myCarousel.carousel div.carousel-inner div.item img {
+	margin-top: 20px;
+}
+
 /** Social buttons **/
 
 /** icons **/
@@ -196,11 +226,11 @@ a.brand img {
 	margin-right: 10px;
     margin-top: 45px;
 	}
-	
+
 .social-panel ul {
 	list-style:none;
 	}
-	
+
 .social-panel li{
 	float:left;
 	margin-left:5px;
@@ -208,28 +238,28 @@ a.brand img {
 	}
 
 .facebook-icon {
-	background:url(../img/social-icons.png) 0px -30px no-repeat;
-	
-	width:30px;
-	height:30px;
-	display:block;
-	}
-	
-.facebook-icon:hover {
 	background:url(../img/social-icons.png) 0px 0px no-repeat;
-	}
-	
-.twitter-icon {
-	background:url(../img/social-icons.png) -30px -30px no-repeat;
+
 	width:30px;
 	height:30px;
 	display:block;
 	}
-	
-.twitter-icon:hover {
-	background:url(../img/social-icons.png) -30px 0px no-repeat;
+
+.facebook-icon:hover {
+	background:url(../img/social-icons.png) 0px -30px no-repeat;
 	}
-	
+
+.twitter-icon {
+	background:url(../img/social-icons.png) -30px 0px no-repeat;
+	width:30px;
+	height:30px;
+	display:block;
+	}
+
+.twitter-icon:hover {
+	background:url(../img/social-icons.png) -30px -30px no-repeat;
+	}
+
 .tumblr-icon {
 	background:url(../img/social-icons.png) -91px 0px no-repeat;
 	width:30px;
@@ -309,24 +339,36 @@ a.brand img {
 .icon-rss:hover {
 	background:url(../img/social-icons.png) -180px -30px no-repeat;
 }
-	
+
 div#pre-order.modal div.modal-body {
 	color:#333;
 		}
-	
+
 .span5 h2, .span2 h3 {
 	margin-bottom:0;
 	}
-	
+
+.smaller-text {
+	font-size: 0.8em;
+}
+
+.made {
+	background:url(../img/italy-flag.gif);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:39px;
+	height:30px;
+}
+
 /* Footer */
 footer {
-	border-top: 3px solid #CC9C3D;
+	border-top: 1px solid #CC9C3D;
 	padding-top:20px;
 	font-size:10px;
 	margin-top:20px;
 	text-align:center;
 	}
-	
+
 /*Some CSS*/
 * {margin: 0; padding: 0;}
 .magnify {
@@ -341,12 +383,12 @@ footer {
 	height: 175px;
 	position: absolute;
 	border-radius: 100%;
-	
+
 	/*Multiple box shadows to achieve the glass effect*/
 	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
 	0 0 7px 7px rgba(0, 0, 0, 0.25), 
 	inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-	
+
 	/*hide the glass by default*/
 	display: none;
 }
@@ -357,11 +399,11 @@ footer {
 .deco-blight {
 	background: url('/img/5-Serapea-DECO-BLIGHT-code-S-DB011.jpg') no-repeat;
 	}
-	
+
 .deco-garnet {
 	background: url('/img/6-Serapea-DECO-GARNET-code-S-DG012.jpg') no-repeat;
 	}
-	
+
 .deco-reef {
 	background: url('/img/7-Serapea-DECO-REEF-code-S-DR013.jpg') no-repeat;
 	}
@@ -369,27 +411,27 @@ footer {
 .finis-cobalt {
 	background: url('/img/8-Serapea-COBALT.jpg') no-repeat;
 	}
-	
+
 .finis-rose {
 	background: url('/img/9-Serapea-FINIS-ROSE-code-S-FR022.jpg') no-repeat;
 	}
-	
+
 .pardus {
 	background: url('/img/10-Serapea-PARDUS-code-S-PA030.jpg') no-repeat;
 	}
-	
+
 .bluette {
 	background: url('/img/3-Serapea-TEMPESTAS-IN-BLUETTE-code-S-TV003.jpg') no-repeat;
 	}
-	
+
 .forest {
 	background: url('/img/4-Serapea-TEMPESTAS-IN-FOREST-code-S-TF004.jpg') no-repeat;
 	}
-	
+
 .grey {
 	background: url('/img/1-Serapea-TEMPESTAS-IN-GREY-code-S-TG001.jpg') no-repeat;
 	}
-	
+
 .violet {
 	background: url('/img/2-Serapea-TEMPESTAS-IN-VIOLET-code-S-TV002.jpg') no-repeat;
 	}
