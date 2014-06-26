@@ -132,6 +132,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* line 18, ../sass/_base.scss */
+p {
+  margin-bottom: 0.5em;
+}
+
 /* line 4, ../sass/_layout.scss */
 .right-col {
   width: 49.15254%;

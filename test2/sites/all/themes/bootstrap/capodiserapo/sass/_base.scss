@@ -14,3 +14,7 @@
 // @import "normalize"; // see https://github.com/JohnAlbin/normalize-scss
 // @import "bootstrap"; //This will pull in bootstrap v3
 @import "rgbapng"; // see https://github.com/aaronrussell/compass-rgbapng
+
+p {
+  margin-bottom: 0.5em;
+}
