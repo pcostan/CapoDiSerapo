@@ -2220,10 +2220,6 @@ $(function() {
     }
 });
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
 */
 
 $(document).ready(function(){
@@ -2294,14 +2290,3 @@ $(document).ready(function(){
 		}
 	})
 })
-
-$('.carousel').carousel({
-  interval: 5000
-<<<<<<< HEAD
-})
-=======
-})
-=======
-*/
->>>>>>> f38005670a979b8a0bceb2295346619552f8c514
->>>>>>> FETCH_HEAD
