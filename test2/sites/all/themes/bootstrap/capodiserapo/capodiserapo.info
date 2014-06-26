@@ -14,9 +14,9 @@ regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
 
 ; Stylesheets
-stylesheets[all][] = stylessheets/screen.css
-stylesheets[all][] = stylessheets/print.css
-;stylesheets[all][] = stylessheets/ie.css
+stylesheets[all][] = stylesheets/screen.css
+stylesheets[all][] = stylesheets/print.css
+;stylesheets[all][] = stylesheets/ie.css
 
 ;**********************************
 ; METHOD 1: Bootstrap Source Files
