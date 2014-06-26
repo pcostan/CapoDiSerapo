@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "capodiserapo.com Statistics"
+AuthUserFile /var/chroot/home/content/63/9397063/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html

@@ -1,0 +1,5 @@
+.errordocs
+_db_backups
+
+cgi/*
+stats/*
