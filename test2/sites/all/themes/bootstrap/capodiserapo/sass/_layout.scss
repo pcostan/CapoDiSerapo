@@ -1,5 +1,13 @@
 // layout
 
+
+.right-col {
+  @include span-columns(6, 12)
+}
+.left-col {
+  @include omega;
+}
+
 footer {
   background-color: black;
 }

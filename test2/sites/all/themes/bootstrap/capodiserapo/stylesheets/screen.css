@@ -132,7 +132,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 3, ../sass/_layout.scss */
+/* line 4, ../sass/_layout.scss */
+.right-col {
+  width: 49.15254%;
+  float: left;
+  margin-right: 1.69492%;
+  display: inline;
+}
+
+/* line 7, ../sass/_layout.scss */
+.left-col {
+  float: right;
+  margin-right: 0;
+  *margin-left: -1em;
+  display: inline;
+}
+
+/* line 11, ../sass/_layout.scss */
 footer {
   background-color: black;
 }
