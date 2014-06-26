@@ -131,3 +131,8 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 3, ../sass/_layout.scss */
+footer {
+  background-color: black;
+}
