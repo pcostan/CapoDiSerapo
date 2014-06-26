@@ -2,10 +2,14 @@
 
 
 .right-col {
-  @include span-columns (6, 12);
+  @include breakpoint ($tablet, $no-query) {
+    @include span-columns (6, 12);
+  }
 }
 .left-col {
-  @include span-columns (6 omega, 12);
+  @include breakpoint ($tablet, $no-query) {
+    @include span-columns (6 omega, 12);
+  }
 }
 
 footer {

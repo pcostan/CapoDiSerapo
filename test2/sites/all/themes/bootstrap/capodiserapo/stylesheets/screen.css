@@ -143,34 +143,40 @@ h1 {
   line-height: 30px;
   font-size: 2.6rem;
   line-height: 3rem;
+  margin-bottom: 0.5em;
 }
 
-/* line 25, ../sass/_base.scss */
+/* line 26, ../sass/_base.scss */
 h2 {
   font-size: 24px;
   line-height: 28px;
   font-size: 2.4rem;
   line-height: 2.8rem;
+  margin-bottom: 0.5em;
 }
 
-/* line 4, ../sass/_layout.scss */
-.right-col {
-  width: 49.15254%;
-  float: left;
-  margin-right: 1.69492%;
-  display: inline;
+@media (min-width: 768px) {
+  /* line 4, ../sass/_layout.scss */
+  .right-col {
+    width: 48.98785%;
+    float: left;
+    margin-right: 2.02429%;
+    display: inline;
+  }
 }
 
-/* line 7, ../sass/_layout.scss */
-.left-col {
-  width: 49.15254%;
-  float: right;
-  margin-right: 0;
-  *margin-left: -1em;
-  display: inline;
+@media (min-width: 768px) {
+  /* line 9, ../sass/_layout.scss */
+  .left-col {
+    width: 48.98785%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1.5em;
+    display: inline;
+  }
 }
 
-/* line 11, ../sass/_layout.scss */
+/* line 15, ../sass/_layout.scss */
 footer {
   background-color: #CCC;
 }
