@@ -2220,6 +2220,7 @@ $(function() {
     }
 });
 
+<<<<<<< HEAD
 */
 
 $(document).ready(function(){
@@ -2294,3 +2295,6 @@ $(document).ready(function(){
 $('.carousel').carousel({
   interval: 5000
 })
+=======
+*/
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514

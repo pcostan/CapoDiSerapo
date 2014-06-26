@@ -40,11 +40,19 @@ h6 small {
 h1,
 h2,
 h3 {
+<<<<<<< HEAD
   line-height: 30px;
 }
 
 h1 {
   font-size: 27.5px;
+=======
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 38.5px;
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 }
 
 h2 {
@@ -52,7 +60,11 @@ h2 {
 }
 
 h3 {
+<<<<<<< HEAD
   font-size: 22.5px;
+=======
+  font-size: 24.5px;
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 }
 
 div.modal-header h3 {
@@ -95,7 +107,11 @@ h3 small {
 
 h4 small {
   font-size: 14px;
+<<<<<<< HEAD
   }
+=======
+}
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 
 .header-sm {
 	font-size:30px;
@@ -112,6 +128,7 @@ h4 small {
 	color:#070845;
 	}
 	
+<<<<<<< HEAD
 /* Layout */
 
 a.brand img {
@@ -119,11 +136,14 @@ a.brand img {
 	height:auto;
 	}
 	
+=======
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 .top-bottom-lines {
 	border-top: 1px solid #CC9C3D;
 	padding-top:1px;
 	border-bottom: 3px solid #CC9C3D;
 	margin-bottom: 30px;
+<<<<<<< HEAD
 	background-color: #070845;
 	}
 
@@ -133,12 +153,18 @@ a.brand img {
 	margin-bottom: 30px;
 	background-color: #070845;
 	border-bottom:0;
+=======
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 	}
 	
 .hero-unit {
 	color:#FFF;
 	text-shadow: 2px 2px 2px #000000;
+<<<<<<< HEAD
    filter: dropshadow(color=#000000, offx=2, offy=2);
+=======
+    filter: dropshadow(color=#000000, offx=2, offy=2);
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 		}
 	
 .hero-unit.image1 {
@@ -162,23 +188,31 @@ a.brand img {
 	background-repeat:no-repeat;
 	}
 	
+<<<<<<< HEAD
 .carousel {
 	background-color: #070845;
 	margin-bottom: 17px;
 }
 
+=======
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 .carousel-caption	{
 	bottom: 0;
     float: right;
     height: 35%;
     left: 50%;
     right: 0;
+<<<<<<< HEAD
     top: 128px;
+=======
+    top: 40%;
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
     width: 40%;
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
 	-o-border-radius:10px;
 	border-radius:10px;
+<<<<<<< HEAD
 	background:none!important;
 	color:#000!important;
 		}
@@ -201,12 +235,20 @@ a.brand img {
 	position:absolute;
 	left:40%;
 	margin-left:0;
+=======
+		}
+		
+.navbar div.navbar-inner div.container a.brand {
+	position:absolute;
+	left:45%;
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 	}
 	
 .navbar div.navbar-inner div.container {
 	height:95px;
 	}
 	
+<<<<<<< HEAD
 .carousel-caption a.btn {
 	margin-top:10px;
 	}
@@ -214,6 +256,15 @@ a.brand img {
 #myCarousel.carousel div.carousel-inner div.item img {
 	margin-top: 20px;
 }
+=======
+.lead {
+	font-size:18px!important;
+	}
+	
+.carousel-caption a.btn {
+	margin-top:10px;
+	}
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 	
 /** Social buttons **/
 
@@ -239,7 +290,10 @@ a.brand img {
 
 .facebook-icon {
 	background:url(../img/social-icons.png) 0px 0px no-repeat;
+<<<<<<< HEAD
 	
+=======
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 	width:30px;
 	height:30px;
 	display:block;
@@ -344,6 +398,7 @@ div#pre-order.modal div.modal-body {
 	color:#333;
 		}
 	
+<<<<<<< HEAD
 .span5 h2, .span2 h3 {
 	margin-bottom:0;
 	}
@@ -363,10 +418,16 @@ div#pre-order.modal div.modal-body {
 /* Footer */
 footer {
 	border-top: 1px solid #CC9C3D;
+=======
+/* Footer */
+footer {
+	border-top: 3px solid #CC9C3D;
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 	padding-top:20px;
 	font-size:10px;
 	margin-top:20px;
 	text-align:center;
+<<<<<<< HEAD
 	}
 	
 /*Some CSS*/
@@ -434,4 +495,6 @@ footer {
 	
 .violet {
 	background: url('/img/2-Serapea-TEMPESTAS-IN-VIOLET-code-S-TV002.jpg') no-repeat;
+=======
+>>>>>>> f38005670a979b8a0bceb2295346619552f8c514
 	}
