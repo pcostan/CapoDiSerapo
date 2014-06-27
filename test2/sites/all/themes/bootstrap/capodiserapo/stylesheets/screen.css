@@ -133,11 +133,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 18, ../sass/_base.scss */
+html {
+  height: 100%;
+  line-height: 1.4;
+  font-size: 62.5%;
+  /* Sets up the Base 10 stuff */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 26, ../sass/_base.scss */
+body {
+  font-size: 16px;
+  line-height: 20px;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+/* line 31, ../sass/_base.scss */
 p {
   margin-bottom: 0.5em;
 }
 
-/* line 22, ../sass/_base.scss */
+/* line 35, ../sass/_base.scss */
 h1 {
   font-size: 26px;
   line-height: 30px;
@@ -146,7 +164,7 @@ h1 {
   margin-bottom: 0.5em;
 }
 
-/* line 26, ../sass/_base.scss */
+/* line 39, ../sass/_base.scss */
 h2 {
   font-size: 24px;
   line-height: 28px;
@@ -252,4 +270,12 @@ footer {
   border-radius: 5px 5px 0 0;
   background: url('/images/rgbapng/ffffff7f-5.png?1403881927');
   background: rgba(255, 255, 255, 0.5);
+}
+/* line 54, ../sass/_layout.scss */
+footer .region-footer {
+  font-size: 14px;
+  line-height: 20px;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
 }

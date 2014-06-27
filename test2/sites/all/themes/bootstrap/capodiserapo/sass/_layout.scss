@@ -51,4 +51,9 @@ body {
 footer {
   @include border-radius (5px 5px 0 0);
   @include rgba-background(rgba(255, 255, 255,0.5));
+  .region-footer {
+    @include font-size (14, 20);
+    text-align: center;
+  }
 }
+

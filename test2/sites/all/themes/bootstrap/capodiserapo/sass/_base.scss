@@ -15,6 +15,19 @@
 // @import "bootstrap"; //This will pull in bootstrap v3
 @import "rgbapng"; // see https://github.com/aaronrussell/compass-rgbapng
 
+html {
+  height: 100%;
+  line-height: 1.4;
+  font-size: 62.5%; /* Sets up the Base 10 stuff */
+  -webkit-text-size-adjust: 100%;  // Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  @include font-size (16, 20);
+  // -webkit-font-smoothing: antialiased;
+}
+
 p {
   margin-bottom: 0.5em;
 }
