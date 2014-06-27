@@ -9,7 +9,10 @@ body {
 
 a.logo.navbar-btn {
   position: absolute;
-  left: 43%;
+  left: 31%;
+  @include breakpoint ($tablet, $no-query) {
+    left: 43%;
+  }
   img {
     width: 100px;
     @include breakpoint ($tablet, $no-query) {
