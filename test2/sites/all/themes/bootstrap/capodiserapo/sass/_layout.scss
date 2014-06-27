@@ -1,4 +1,11 @@
 // layout
+body {
+  background: url('/img/background.jpg')no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .navbar-fixed-top, 
 .navbar-fixed-bottom, 
@@ -16,9 +23,13 @@
 }
 
 .main-container {
+  @include rgba-background(rgba(255, 255, 255,0.5));
   @include breakpoint ($desktop, $no-query) {
-    margin-top: 60px;
+    // margin-top: 60px;
+    @include border-radius (5px);
   }
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .right-col {
@@ -30,8 +41,14 @@
   @include breakpoint ($tablet, $no-query) {
     @include span-columns (6 omega, 12);
   }
+  img {
+    width: 100%;
+    height: auto;
+    @include border-radius (5px);
+  }
 }
 
 footer {
-  background-color: #CCC;
+  @include border-radius (5px 5px 0 0);
+  @include rgba-background(rgba(255, 255, 255,0.5));
 }
