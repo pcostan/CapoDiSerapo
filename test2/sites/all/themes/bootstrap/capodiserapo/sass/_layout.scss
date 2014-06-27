@@ -7,6 +7,17 @@ body {
   background-size: cover;
 }
 
+a.logo.navbar-btn {
+  position: absolute;
+  left: 43%;
+  img {
+    width: 100px;
+    @include breakpoint ($tablet, $no-query) {
+    width: 58%;
+    }
+  }
+}
+
 .navbar-fixed-top, 
 .navbar-fixed-bottom, 
 .navbar-static-top {

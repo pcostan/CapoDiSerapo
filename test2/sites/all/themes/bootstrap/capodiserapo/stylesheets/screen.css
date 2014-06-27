@@ -182,7 +182,23 @@ body {
   background-size: cover;
 }
 
-/* line 12, ../sass/_layout.scss */
+/* line 10, ../sass/_layout.scss */
+a.logo.navbar-btn {
+  position: absolute;
+  left: 43%;
+}
+/* line 13, ../sass/_layout.scss */
+a.logo.navbar-btn img {
+  width: 100px;
+}
+@media (min-width: 768px) {
+  /* line 13, ../sass/_layout.scss */
+  a.logo.navbar-btn img {
+    width: 58%;
+  }
+}
+
+/* line 23, ../sass/_layout.scss */
 .navbar-fixed-top,
 .navbar-fixed-bottom,
 .navbar-static-top {
@@ -190,12 +206,12 @@ body {
   position: none;
 }
 
-/* line 17, ../sass/_layout.scss */
+/* line 28, ../sass/_layout.scss */
 .breadcrumb {
   display: none;
 }
 
-/* line 21, ../sass/_layout.scss */
+/* line 32, ../sass/_layout.scss */
 .container {
   *zoom: 1;
   max-width: 74.1em;
@@ -212,7 +228,7 @@ body {
   clear: both;
 }
 
-/* line 25, ../sass/_layout.scss */
+/* line 36, ../sass/_layout.scss */
 .main-container {
   background: url('/images/rgbapng/ffffff7f-5.png?1403881927');
   background: rgba(255, 255, 255, 0.5);
@@ -220,7 +236,7 @@ body {
   padding-bottom: 1em;
 }
 @media (min-width: 992px) {
-  /* line 25, ../sass/_layout.scss */
+  /* line 36, ../sass/_layout.scss */
   .main-container {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -231,7 +247,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  /* line 35, ../sass/_layout.scss */
+  /* line 46, ../sass/_layout.scss */
   .right-col {
     width: 48.98785%;
     float: left;
@@ -241,7 +257,7 @@ body {
 }
 
 @media (min-width: 768px) {
-  /* line 40, ../sass/_layout.scss */
+  /* line 51, ../sass/_layout.scss */
   .left-col {
     width: 48.98785%;
     float: right;
@@ -250,7 +266,7 @@ body {
     display: inline;
   }
 }
-/* line 44, ../sass/_layout.scss */
+/* line 55, ../sass/_layout.scss */
 .left-col img {
   width: 100%;
   height: auto;
@@ -261,7 +277,7 @@ body {
   border-radius: 5px;
 }
 
-/* line 51, ../sass/_layout.scss */
+/* line 62, ../sass/_layout.scss */
 footer {
   -webkit-border-radius: 5px 5px 0 0;
   -moz-border-radius: 5px 5px 0 0;
@@ -271,7 +287,7 @@ footer {
   background: url('/images/rgbapng/ffffff7f-5.png?1403881927');
   background: rgba(255, 255, 255, 0.5);
 }
-/* line 54, ../sass/_layout.scss */
+/* line 65, ../sass/_layout.scss */
 footer .region-footer {
   font-size: 14px;
   line-height: 20px;
