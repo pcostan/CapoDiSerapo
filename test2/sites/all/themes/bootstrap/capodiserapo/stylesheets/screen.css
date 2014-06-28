@@ -301,3 +301,9 @@ footer .region-footer {
   line-height: 2rem;
   text-align: center;
 }
+
+/* line 76, ../sass/_layout.scss */
+a.left.carousel-control,
+a.right.carousel-control {
+  height: 94%;
+}
