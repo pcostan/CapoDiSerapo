@@ -40,7 +40,7 @@ stylesheets[all][] = stylesheets/hoverover.css
 ; ;; Scripts
 ; ;;;;;;;;;;;;;;;;;;;;;
 ; 
-scripts[] = 'js/prefixfree.js'
+scripts[] = 'js/magnify.js'
 ; scripts[] = 'bootstrap/js/affix.js'
 ; scripts[] = 'bootstrap/js/alert.js'
 ; scripts[] = 'bootstrap/js/button.js'
