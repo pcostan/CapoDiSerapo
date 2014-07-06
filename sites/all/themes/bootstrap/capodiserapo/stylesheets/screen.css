@@ -1,0 +1,424 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 17, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 18, ../sass/_base.scss */
+html {
+  height: 100%;
+  line-height: 1.4;
+  font-size: 62.5%;
+  /* Sets up the Base 10 stuff */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 26, ../sass/_base.scss */
+body {
+  font-size: 16px;
+  line-height: 20px;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+/* line 31, ../sass/_base.scss */
+p {
+  margin-bottom: 0.5em;
+}
+
+/* line 35, ../sass/_base.scss */
+h1 {
+  font-size: 26px;
+  line-height: 30px;
+  font-size: 2.6rem;
+  line-height: 3rem;
+  margin-bottom: 0.5em;
+}
+
+/* line 39, ../sass/_base.scss */
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  margin-bottom: 0.5em;
+}
+
+/* line 2, ../sass/_layout.scss */
+body {
+  background: url("/img/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 10, ../sass/_layout.scss */
+a.logo.navbar-btn {
+  position: absolute;
+  left: 31%;
+}
+@media (min-width: 768px) {
+  /* line 10, ../sass/_layout.scss */
+  a.logo.navbar-btn {
+    left: 43%;
+  }
+}
+/* line 16, ../sass/_layout.scss */
+a.logo.navbar-btn img {
+  width: 100px;
+}
+@media (min-width: 768px) {
+  /* line 16, ../sass/_layout.scss */
+  a.logo.navbar-btn img {
+    width: 58%;
+  }
+}
+
+/* line 26, ../sass/_layout.scss */
+.navbar-fixed-top,
+.navbar-fixed-bottom,
+.navbar-static-top {
+  margin: 0;
+  position: none;
+}
+
+/* line 31, ../sass/_layout.scss */
+.breadcrumb {
+  display: none;
+}
+
+/* line 35, ../sass/_layout.scss */
+.container {
+  *zoom: 1;
+  max-width: 74.1em;
+  _width: 74.1em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 38, ../../../../../../../../../../../Users/paulcostan/.rvm/gems/ruby-2.0.0-p247/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 39, ../sass/_layout.scss */
+.main-container {
+  background: url('/images/rgbapng/ffffff7f-5.png?1403881927');
+  background: rgba(255, 255, 255, 0.5);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+@media (min-width: 992px) {
+  /* line 39, ../sass/_layout.scss */
+  .main-container {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 49, ../sass/_layout.scss */
+  .right-col {
+    width: 48.98785%;
+    float: left;
+    margin-right: 2.02429%;
+    display: inline;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 54, ../sass/_layout.scss */
+  .left-col {
+    width: 48.98785%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1.5em;
+    display: inline;
+  }
+}
+/* line 58, ../sass/_layout.scss */
+.left-col img {
+  width: 100%;
+  height: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 65, ../sass/_layout.scss */
+footer {
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  background: url('/images/rgbapng/ffffff7f-5.png?1403881927');
+  background: rgba(255, 255, 255, 0.5);
+}
+/* line 68, ../sass/_layout.scss */
+footer .region-footer {
+  font-size: 14px;
+  line-height: 20px;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+/* line 76, ../sass/_layout.scss */
+a.left.carousel-control,
+a.right.carousel-control {
+  height: 94%;
+}
+
+/* line 84, ../sass/_layout.scss */
+.collections h3 {
+  font-size: 20px;
+  line-height: 40px;
+  font-size: 2rem;
+  line-height: 4rem;
+  margin-bottom: 1em;
+}
+
+/*Some CSS*/
+/* line 91, ../sass/_layout.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 96, ../sass/_layout.scss */
+.magnify {
+  width: 100%;
+  margin: 14px auto;
+  position: relative;
+}
+
+/*Lets create the magnifying glass*/
+/* line 103, ../sass/_layout.scss */
+.large {
+  width: 175px;
+  height: 175px;
+  position: absolute;
+  border-radius: 100%;
+  /*Multiple box shadows to achieve the glass effect*/
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+  /*hide the glass by default*/
+  display: none;
+}
+
+/*To solve overlap bug at the edges during magnification*/
+/* line 119, ../sass/_layout.scss */
+.small {
+  display: block;
+  width: 100%;
+}
+
+/* line 124, ../sass/_layout.scss */
+.deco-blight {
+  background: url("/img/5-Serapea-DECO-BLIGHT-code-S-DB011.jpg") no-repeat;
+}
+
+/* line 128, ../sass/_layout.scss */
+.deco-garnet {
+  background: url("/img/6-Serapea-DECO-GARNET-code-S-DG012.jpg") no-repeat;
+}
+
+/* line 132, ../sass/_layout.scss */
+.deco-reef {
+  background: url("/img/7-Serapea-DECO-REEF-code-S-DR013.jpg") no-repeat;
+}
+
+/* line 136, ../sass/_layout.scss */
+.finis-cobalt {
+  background: url("/img/8-Serapea-COBALT.jpg") no-repeat;
+}
+
+/* line 140, ../sass/_layout.scss */
+.finis-rose {
+  background: url("/img/9-Serapea-FINIS-ROSE-code-S-FR022.jpg") no-repeat;
+}
+
+/* line 144, ../sass/_layout.scss */
+.pardus {
+  background: url("/img/10-Serapea-PARDUS-code-S-PA030.jpg") no-repeat;
+}
+
+/* line 148, ../sass/_layout.scss */
+.bluette {
+  background: url("/img/3-Serapea-TEMPESTAS-IN-BLUETTE-code-S-TV003.jpg") no-repeat;
+}
+
+/* line 152, ../sass/_layout.scss */
+.forest {
+  background: url("/img/4-Serapea-TEMPESTAS-IN-FOREST-code-S-TF004.jpg") no-repeat;
+}
+
+/* line 156, ../sass/_layout.scss */
+.grey {
+  background: url("/img/1-Serapea-TEMPESTAS-IN-GREY-code-S-TG001.jpg") no-repeat;
+}
+
+/* line 160, ../sass/_layout.scss */
+.violet {
+  background: url("/img/2-Serapea-TEMPESTAS-IN-VIOLET-code-S-TV002.jpg") no-repeat;
+}
+
+/* line 165, ../sass/_layout.scss */
+.carousel-caption p.lead {
+  font-size: 15px;
+  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+@media (min-width: 768px) {
+  /* line 165, ../sass/_layout.scss */
+  .carousel-caption p.lead {
+    font-size: 45px;
+    line-height: 40px;
+    font-size: 4.5rem;
+    line-height: 4rem;
+  }
+}
+
+/* line 173, ../sass/_layout.scss */
+.submitted {
+  display: none;
+}

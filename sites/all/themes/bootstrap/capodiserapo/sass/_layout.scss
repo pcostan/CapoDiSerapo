@@ -1,0 +1,175 @@
+// layout
+body {
+  background: url('/img/background.jpg')no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a.logo.navbar-btn {
+  position: absolute;
+  left: 31%;
+  @include breakpoint ($tablet, $no-query) {
+    left: 43%;
+  }
+  img {
+    width: 100px;
+    @include breakpoint ($tablet, $no-query) {
+    width: 58%;
+    }
+  }
+}
+
+.navbar-fixed-top, 
+.navbar-fixed-bottom, 
+.navbar-static-top {
+    margin: 0;
+    position: none;
+}
+
+.breadcrumb {
+  display: none;
+}
+
+.container {
+  @include container;
+}
+
+.main-container {
+  @include rgba-background(rgba(255, 255, 255,0.5));
+  @include breakpoint ($desktop, $no-query) {
+    // margin-top: 60px;
+    @include border-radius (5px);
+  }
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.right-col {
+  @include breakpoint ($tablet, $no-query) {
+    @include span-columns (6, 12);
+  }
+}
+.left-col {
+  @include breakpoint ($tablet, $no-query) {
+    @include span-columns (6 omega, 12);
+  }
+  img {
+    width: 100%;
+    height: auto;
+    @include border-radius (5px);
+  }
+}
+
+footer {
+  @include border-radius (5px 5px 0 0);
+  @include rgba-background(rgba(255, 255, 255,0.5));
+  .region-footer {
+    @include font-size (14, 20);
+    text-align: center;
+  }
+}
+
+// homepage
+a.left.carousel-control,
+a.right.carousel-control {
+  height: 94%;
+}
+
+
+//collections
+
+.collections {
+  h3 {
+    @include font-size (20, 40);
+    margin-bottom: 1em;
+  }
+}
+
+/*Some CSS*/
+* {
+  margin: 0; 
+  padding: 0;
+}
+
+.magnify {
+  width: 100%; 
+  margin: 14px auto; 
+  position: relative;
+  }
+
+/*Lets create the magnifying glass*/
+.large {
+  width: 175px; 
+  height: 175px;
+  position: absolute;
+  border-radius: 100%;
+
+  /*Multiple box shadows to achieve the glass effect*/
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 
+  0 0 7px 7px rgba(0, 0, 0, 0.25), 
+  inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+
+  /*hide the glass by default*/
+  display: none;
+}
+
+/*To solve overlap bug at the edges during magnification*/
+.small { 
+  display: block; 
+  width: 100%;
+}
+
+.deco-blight {
+  background: url('/img/5-Serapea-DECO-BLIGHT-code-S-DB011.jpg') no-repeat;
+  }
+
+.deco-garnet {
+  background: url('/img/6-Serapea-DECO-GARNET-code-S-DG012.jpg') no-repeat;
+  }
+
+.deco-reef {
+  background: url('/img/7-Serapea-DECO-REEF-code-S-DR013.jpg') no-repeat;
+  }
+
+.finis-cobalt {
+  background: url('/img/8-Serapea-COBALT.jpg') no-repeat;
+  }
+
+.finis-rose {
+  background: url('/img/9-Serapea-FINIS-ROSE-code-S-FR022.jpg') no-repeat;
+  }
+
+.pardus {
+  background: url('/img/10-Serapea-PARDUS-code-S-PA030.jpg') no-repeat;
+  }
+
+.bluette {
+  background: url('/img/3-Serapea-TEMPESTAS-IN-BLUETTE-code-S-TV003.jpg') no-repeat;
+  }
+
+.forest {
+  background: url('/img/4-Serapea-TEMPESTAS-IN-FOREST-code-S-TF004.jpg') no-repeat;
+  }
+
+.grey {
+  background: url('/img/1-Serapea-TEMPESTAS-IN-GREY-code-S-TG001.jpg') no-repeat;
+  }
+
+.violet {
+  background: url('/img/2-Serapea-TEMPESTAS-IN-VIOLET-code-S-TV002.jpg') no-repeat;
+  }
+
+.carousel-caption {
+  p.lead {
+    @include font-size (15, 20) ;
+   @include breakpoint ($tablet) {
+      @include font-size (45, 40) ;
+   }
+  }
+}
+
+.submitted {
+  display: none;
+}

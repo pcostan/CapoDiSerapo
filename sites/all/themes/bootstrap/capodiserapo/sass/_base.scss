@@ -1,0 +1,42 @@
+@import "compass"; // compass library, compass-style.org
+@import "compass/reset";
+@import "compass/css3/background-clip";
+@import "compass/css3/border-radius";
+@import "compass/css3/box-shadow";
+@import "compass/css3/box-sizing";
+@import "compass/css3/images";
+@import "compass/css3/text-shadow";
+@import "compass/css3/transition";
+@import "compass/css3/transform";
+@import "compass/css3/opacity";
+@import "breakpoint"; // breakpoint for media queries
+@import "susy"; // susy grid
+// @import "normalize"; // see https://github.com/JohnAlbin/normalize-scss
+// @import "bootstrap"; //This will pull in bootstrap v3
+@import "rgbapng"; // see https://github.com/aaronrussell/compass-rgbapng
+
+html {
+  height: 100%;
+  line-height: 1.4;
+  font-size: 62.5%; /* Sets up the Base 10 stuff */
+  -webkit-text-size-adjust: 100%;  // Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  @include font-size (16, 20);
+  // -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  @include font-size (26, 30); 
+  margin-bottom: 0.5em;
+}
+h2 {
+  @include font-size (24, 28); 
+  margin-bottom: 0.5em;
+}

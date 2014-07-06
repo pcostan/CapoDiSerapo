@@ -1,0 +1,28 @@
+
+// colours
+$bgcolor: black;
+
+//
+// Breakpoints Widths
+//
+$page_width: 992px;
+$max_page_width: 1200px;
+
+$iphone: 320px;
+$mobile: 480px;
+$tablet: 768px; //This is set to page width by default
+$desktop: $page_width;
+$large-screen: $max_page_width;
+
+// susy grid layout
+$total-columns: 12;
+$column-width: 4.8em;
+$gutter-width: 1.5em;
+$grid-padding: $gutter-width;
+$container-style: magic;
+// $container-style: fluid;
+
+// For IE
+$no-query: '.no-mqs';
+$ie8-above: '.no-mqs.lt-ie9';
+$ie7-below: '.lt-ie8';
