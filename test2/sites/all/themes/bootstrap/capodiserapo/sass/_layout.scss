@@ -163,6 +163,13 @@ a.right.carousel-control {
 
 .carousel-caption {
   p.lead {
-   @include font-size (45, 40) ;
+    @include font-size (15, 20) ;
+   @include breakpoint ($tablet) {
+      @include font-size (45, 40) ;
+   }
   }
+}
+
+.submitted {
+  display: none;
 }

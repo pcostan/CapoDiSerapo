@@ -403,8 +403,22 @@ a.right.carousel-control {
 
 /* line 165, ../sass/_layout.scss */
 .carousel-caption p.lead {
-  font-size: 45px;
-  line-height: 40px;
-  font-size: 4.5rem;
-  line-height: 4rem;
+  font-size: 15px;
+  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+@media (min-width: 768px) {
+  /* line 165, ../sass/_layout.scss */
+  .carousel-caption p.lead {
+    font-size: 45px;
+    line-height: 40px;
+    font-size: 4.5rem;
+    line-height: 4rem;
+  }
+}
+
+/* line 173, ../sass/_layout.scss */
+.submitted {
+  display: none;
 }
