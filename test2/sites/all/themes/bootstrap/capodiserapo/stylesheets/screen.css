@@ -348,54 +348,55 @@ a.right.carousel-control {
 /* line 119, ../sass/_layout.scss */
 .small {
   display: block;
+  width: 100%;
 }
 
-/* line 121, ../sass/_layout.scss */
+/* line 124, ../sass/_layout.scss */
 .deco-blight {
   background: url("/img/5-Serapea-DECO-BLIGHT-code-S-DB011.jpg") no-repeat;
 }
 
-/* line 125, ../sass/_layout.scss */
+/* line 128, ../sass/_layout.scss */
 .deco-garnet {
   background: url("/img/6-Serapea-DECO-GARNET-code-S-DG012.jpg") no-repeat;
 }
 
-/* line 129, ../sass/_layout.scss */
+/* line 132, ../sass/_layout.scss */
 .deco-reef {
   background: url("/img/7-Serapea-DECO-REEF-code-S-DR013.jpg") no-repeat;
 }
 
-/* line 133, ../sass/_layout.scss */
+/* line 136, ../sass/_layout.scss */
 .finis-cobalt {
   background: url("/img/8-Serapea-COBALT.jpg") no-repeat;
 }
 
-/* line 137, ../sass/_layout.scss */
+/* line 140, ../sass/_layout.scss */
 .finis-rose {
   background: url("/img/9-Serapea-FINIS-ROSE-code-S-FR022.jpg") no-repeat;
 }
 
-/* line 141, ../sass/_layout.scss */
+/* line 144, ../sass/_layout.scss */
 .pardus {
   background: url("/img/10-Serapea-PARDUS-code-S-PA030.jpg") no-repeat;
 }
 
-/* line 145, ../sass/_layout.scss */
+/* line 148, ../sass/_layout.scss */
 .bluette {
   background: url("/img/3-Serapea-TEMPESTAS-IN-BLUETTE-code-S-TV003.jpg") no-repeat;
 }
 
-/* line 149, ../sass/_layout.scss */
+/* line 152, ../sass/_layout.scss */
 .forest {
   background: url("/img/4-Serapea-TEMPESTAS-IN-FOREST-code-S-TF004.jpg") no-repeat;
 }
 
-/* line 153, ../sass/_layout.scss */
+/* line 156, ../sass/_layout.scss */
 .grey {
   background: url("/img/1-Serapea-TEMPESTAS-IN-GREY-code-S-TG001.jpg") no-repeat;
 }
 
-/* line 157, ../sass/_layout.scss */
+/* line 160, ../sass/_layout.scss */
 .violet {
   background: url("/img/2-Serapea-TEMPESTAS-IN-VIOLET-code-S-TV002.jpg") no-repeat;
 }

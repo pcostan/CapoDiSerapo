@@ -116,7 +116,10 @@ a.right.carousel-control {
 }
 
 /*To solve overlap bug at the edges during magnification*/
-.small { display: block; }
+.small { 
+  display: block; 
+  width: 100%;
+}
 
 .deco-blight {
   background: url('/img/5-Serapea-DECO-BLIGHT-code-S-DB011.jpg') no-repeat;
