@@ -400,3 +400,11 @@ a.right.carousel-control {
 .violet {
   background: url("/img/2-Serapea-TEMPESTAS-IN-VIOLET-code-S-TV002.jpg") no-repeat;
 }
+
+/* line 165, ../sass/_layout.scss */
+.carousel-caption p.lead {
+  font-size: 45px;
+  line-height: 40px;
+  font-size: 4.5rem;
+  line-height: 4rem;
+}

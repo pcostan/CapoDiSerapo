@@ -160,3 +160,9 @@ a.right.carousel-control {
 .violet {
   background: url('/img/2-Serapea-TEMPESTAS-IN-VIOLET-code-S-TV002.jpg') no-repeat;
   }
+
+.carousel-caption {
+  p.lead {
+   @include font-size (45, 40) ;
+  }
+}
