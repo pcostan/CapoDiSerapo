@@ -77,3 +77,12 @@ a.right.carousel-control {
   height: 94%;
 }
 
+
+//collections
+
+.collections {
+  h3 {
+    @include font-size (20, 40);
+    margin-bottom: 1em;
+  }
+}

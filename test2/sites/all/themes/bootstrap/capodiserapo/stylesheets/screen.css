@@ -307,3 +307,12 @@ a.left.carousel-control,
 a.right.carousel-control {
   height: 94%;
 }
+
+/* line 84, ../sass/_layout.scss */
+.collections h3 {
+  font-size: 20px;
+  line-height: 40px;
+  font-size: 2rem;
+  line-height: 4rem;
+  margin-bottom: 1em;
+}
