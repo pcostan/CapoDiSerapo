@@ -284,7 +284,7 @@ a.logo.navbar-btn img {
 }
 
 /* line 65, ../sass/_layout.scss */
-footer {
+footer.footer {
   -webkit-border-radius: 5px 5px 0 0;
   -moz-border-radius: 5px 5px 0 0;
   -ms-border-radius: 5px 5px 0 0;
@@ -295,7 +295,7 @@ footer {
   padding: 1.5em 0 !important;
 }
 /* line 69, ../sass/_layout.scss */
-footer .region-footer {
+footer.footer .region-footer {
   font-size: 14px;
   line-height: 20px;
   font-size: 1.4rem;
