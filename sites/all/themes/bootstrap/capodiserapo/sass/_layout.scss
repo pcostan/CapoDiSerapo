@@ -49,6 +49,7 @@ a.logo.navbar-btn {
 .right-col {
   @include breakpoint ($tablet, $no-query) {
     @include span-columns (6, 12);
+    margin-bottom: 1em;
   }
 }
 .left-col {
@@ -113,6 +114,9 @@ footer.footer {
     margin-bottom: 7%;
   }
 
+  footer.footer {
+    padding: 1em!important;
+  }
 }
 
 //collections

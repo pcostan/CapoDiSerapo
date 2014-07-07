@@ -259,11 +259,12 @@ a.logo.navbar-btn img {
     float: left;
     margin-right: 2.02429%;
     display: inline;
+    margin-bottom: 1em;
   }
 }
 
 @media (min-width: 768px) {
-  /* line 54, ../sass/_layout.scss */
+  /* line 55, ../sass/_layout.scss */
   .left-col {
     width: 48.98785%;
     float: right;
@@ -272,7 +273,7 @@ a.logo.navbar-btn img {
     display: inline;
   }
 }
-/* line 58, ../sass/_layout.scss */
+/* line 59, ../sass/_layout.scss */
 .left-col img {
   width: 100%;
   height: auto;
@@ -283,7 +284,7 @@ a.logo.navbar-btn img {
   border-radius: 5px;
 }
 
-/* line 65, ../sass/_layout.scss */
+/* line 66, ../sass/_layout.scss */
 footer.footer {
   -webkit-border-radius: 5px 5px 0 0;
   -moz-border-radius: 5px 5px 0 0;
@@ -294,7 +295,7 @@ footer.footer {
   background: rgba(255, 255, 255, 0.5);
   padding: 1.5em 0 !important;
 }
-/* line 69, ../sass/_layout.scss */
+/* line 70, ../sass/_layout.scss */
 footer.footer .region-footer {
   font-size: 14px;
   line-height: 20px;
@@ -303,45 +304,49 @@ footer.footer .region-footer {
   text-align: center;
 }
 
-/* line 77, ../sass/_layout.scss */
+/* line 78, ../sass/_layout.scss */
 .homepage .main-container.container {
   margin-top: -14px;
   width: 100%;
   max-width: 100%;
   padding: 0;
 }
-/* line 85, ../sass/_layout.scss */
+/* line 86, ../sass/_layout.scss */
 .homepage h1.page-header {
   display: none;
 }
-/* line 90, ../sass/_layout.scss */
+/* line 91, ../sass/_layout.scss */
 .homepage .col-sm-12,
 .homepage .row {
   margin: 0;
   padding: 0;
 }
-/* line 95, ../sass/_layout.scss */
+/* line 96, ../sass/_layout.scss */
 .homepage a.left.carousel-control,
 .homepage a.right.carousel-control {
   height: 89.5%;
 }
 @media (min-width: 768px) {
-  /* line 95, ../sass/_layout.scss */
+  /* line 96, ../sass/_layout.scss */
   .homepage a.left.carousel-control,
   .homepage a.right.carousel-control {
     height: 97.5%;
   }
 }
-/* line 108, ../sass/_layout.scss */
+/* line 109, ../sass/_layout.scss */
 .homepage p:last-child {
   margin-bottom: -20px;
 }
-/* line 112, ../sass/_layout.scss */
+/* line 113, ../sass/_layout.scss */
 .homepage .carousel-caption {
   margin-bottom: 7%;
 }
+/* line 117, ../sass/_layout.scss */
+.homepage footer.footer {
+  padding: 1em !important;
+}
 
-/* line 121, ../sass/_layout.scss */
+/* line 125, ../sass/_layout.scss */
 .collections h3 {
   font-size: 20px;
   line-height: 40px;
@@ -351,13 +356,13 @@ footer.footer .region-footer {
 }
 
 /*Some CSS*/
-/* line 128, ../sass/_layout.scss */
+/* line 132, ../sass/_layout.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 133, ../sass/_layout.scss */
+/* line 137, ../sass/_layout.scss */
 .magnify {
   width: 100%;
   margin: 14px auto;
@@ -365,7 +370,7 @@ footer.footer .region-footer {
 }
 
 /*Lets create the magnifying glass*/
-/* line 140, ../sass/_layout.scss */
+/* line 144, ../sass/_layout.scss */
 .large {
   width: 175px;
   height: 175px;
@@ -378,63 +383,63 @@ footer.footer .region-footer {
 }
 
 /*To solve overlap bug at the edges during magnification*/
-/* line 156, ../sass/_layout.scss */
+/* line 160, ../sass/_layout.scss */
 .small {
   display: block;
   width: 100%;
 }
 
-/* line 161, ../sass/_layout.scss */
+/* line 165, ../sass/_layout.scss */
 .deco-blight {
   background: url("/img/5-Serapea-DECO-BLIGHT-code-S-DB011.jpg") no-repeat;
 }
 
-/* line 165, ../sass/_layout.scss */
+/* line 169, ../sass/_layout.scss */
 .deco-garnet {
   background: url("/img/6-Serapea-DECO-GARNET-code-S-DG012.jpg") no-repeat;
 }
 
-/* line 169, ../sass/_layout.scss */
+/* line 173, ../sass/_layout.scss */
 .deco-reef {
   background: url("/img/7-Serapea-DECO-REEF-code-S-DR013.jpg") no-repeat;
 }
 
-/* line 173, ../sass/_layout.scss */
+/* line 177, ../sass/_layout.scss */
 .finis-cobalt {
   background: url("/img/8-Serapea-COBALT.jpg") no-repeat;
 }
 
-/* line 177, ../sass/_layout.scss */
+/* line 181, ../sass/_layout.scss */
 .finis-rose {
   background: url("/img/9-Serapea-FINIS-ROSE-code-S-FR022.jpg") no-repeat;
 }
 
-/* line 181, ../sass/_layout.scss */
+/* line 185, ../sass/_layout.scss */
 .pardus {
   background: url("/img/10-Serapea-PARDUS-code-S-PA030.jpg") no-repeat;
 }
 
-/* line 185, ../sass/_layout.scss */
+/* line 189, ../sass/_layout.scss */
 .bluette {
   background: url("/img/3-Serapea-TEMPESTAS-IN-BLUETTE-code-S-TV003.jpg") no-repeat;
 }
 
-/* line 189, ../sass/_layout.scss */
+/* line 193, ../sass/_layout.scss */
 .forest {
   background: url("/img/4-Serapea-TEMPESTAS-IN-FOREST-code-S-TF004.jpg") no-repeat;
 }
 
-/* line 193, ../sass/_layout.scss */
+/* line 197, ../sass/_layout.scss */
 .grey {
   background: url("/img/1-Serapea-TEMPESTAS-IN-GREY-code-S-TG001.jpg") no-repeat;
 }
 
-/* line 197, ../sass/_layout.scss */
+/* line 201, ../sass/_layout.scss */
 .violet {
   background: url("/img/2-Serapea-TEMPESTAS-IN-VIOLET-code-S-TV002.jpg") no-repeat;
 }
 
-/* line 202, ../sass/_layout.scss */
+/* line 206, ../sass/_layout.scss */
 .carousel-caption p.lead {
   font-size: 15px;
   line-height: 20px;
@@ -442,7 +447,7 @@ footer.footer .region-footer {
   line-height: 2rem;
 }
 @media (min-width: 768px) {
-  /* line 202, ../sass/_layout.scss */
+  /* line 206, ../sass/_layout.scss */
   .carousel-caption p.lead {
     font-size: 45px;
     line-height: 40px;
@@ -451,20 +456,20 @@ footer.footer .region-footer {
   }
 }
 
-/* line 210, ../sass/_layout.scss */
+/* line 214, ../sass/_layout.scss */
 .submitted {
   display: none;
 }
 
-/* line 214, ../sass/_layout.scss */
+/* line 218, ../sass/_layout.scss */
 .social-bar {
   margin-top: 0.5em;
 }
-/* line 216, ../sass/_layout.scss */
+/* line 220, ../sass/_layout.scss */
 .social-bar ul {
   display: inline;
 }
-/* line 218, ../sass/_layout.scss */
+/* line 222, ../sass/_layout.scss */
 .social-bar ul li {
   font-size: 30px;
   line-height: 25px;
@@ -474,11 +479,11 @@ footer.footer .region-footer {
   margin-left: 0.5em;
   display: block;
 }
-/* line 223, ../sass/_layout.scss */
+/* line 227, ../sass/_layout.scss */
 .social-bar ul li a {
   color: #070845;
 }
-/* line 225, ../sass/_layout.scss */
+/* line 229, ../sass/_layout.scss */
 .social-bar ul li a:hover {
   color: #cc9c3d;
 }
