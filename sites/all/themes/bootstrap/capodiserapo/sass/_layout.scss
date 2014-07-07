@@ -173,3 +173,21 @@ a.right.carousel-control {
 .submitted {
   display: none;
 }
+
+.social-bar {
+  margin-top: 0.5em;
+  ul {
+    display: inline;
+    li {
+      @include font-size (30, 25);
+      float: right;
+      margin-left: 0.5em;
+      a {
+        color: $cap-blue;
+        &:hover {
+          color: $cap-orange;
+        }
+      }
+    }
+  }
+}

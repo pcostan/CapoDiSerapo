@@ -6,3 +6,6 @@ stats/*
 
 test2/sites/all/themes/bootstrap/capodiserapo/.sass-cache/*
 test2/sites/all/themes/bootstrap/capodiserapo/.sass-cache
+
+sites/all/themes/bootstrap/capodiserapo/.sass-cache/*
+sites/all/themes/bootstrap/capodiserapo/.sass-cache
