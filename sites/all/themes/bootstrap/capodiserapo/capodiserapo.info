@@ -26,6 +26,7 @@ regions[page_bottom]    = 'Page bottom'
 stylesheets[all][] = stylesheets/screen.css
 stylesheets[all][] = stylesheets/print.css
 stylesheets[all][] = stylesheets/hoverover.css
+stylesheets[all][] = stylesheets/font-awesome.css
 ;stylesheets[all][] = stylesheets/ie.css
 
 ; For information on choosing the desired method, please read the Drupal
