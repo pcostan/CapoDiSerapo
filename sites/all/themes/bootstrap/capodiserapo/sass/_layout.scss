@@ -233,3 +233,21 @@ footer.footer {
     }
   }
 }
+
+// t&c / policy
+.page-terms-conditions,
+.page-policy {
+  .panel-2col .panel-col-first {
+    @include span-columns (12);
+    @include breakpoint ($tablet) {
+      @include span-columns (6, 12) ;
+    }
+  }
+
+  .panel-2col .panel-col-last {
+    @include span-columns (12);
+    @include breakpoint ($tablet) {
+      @include span-columns (6 omega, 12) ;
+    }
+  }
+}

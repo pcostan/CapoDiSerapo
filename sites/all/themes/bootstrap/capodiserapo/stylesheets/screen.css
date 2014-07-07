@@ -487,3 +487,41 @@ footer.footer .region-footer {
 .social-bar ul li a:hover {
   color: #cc9c3d;
 }
+
+/* line 240, ../sass/_layout.scss */
+.page-terms-conditions .panel-2col .panel-col-first,
+.page-policy .panel-2col .panel-col-first {
+  width: 100%;
+  float: left;
+  margin-right: 2.02429%;
+  display: inline;
+}
+@media (min-width: 768px) {
+  /* line 240, ../sass/_layout.scss */
+  .page-terms-conditions .panel-2col .panel-col-first,
+  .page-policy .panel-2col .panel-col-first {
+    width: 48.98785%;
+    float: left;
+    margin-right: 2.02429%;
+    display: inline;
+  }
+}
+/* line 247, ../sass/_layout.scss */
+.page-terms-conditions .panel-2col .panel-col-last,
+.page-policy .panel-2col .panel-col-last {
+  width: 100%;
+  float: left;
+  margin-right: 2.02429%;
+  display: inline;
+}
+@media (min-width: 768px) {
+  /* line 247, ../sass/_layout.scss */
+  .page-terms-conditions .panel-2col .panel-col-last,
+  .page-policy .panel-2col .panel-col-last {
+    width: 48.98785%;
+    float: right;
+    margin-right: 0;
+    *margin-left: -1.5em;
+    display: inline;
+  }
+}
