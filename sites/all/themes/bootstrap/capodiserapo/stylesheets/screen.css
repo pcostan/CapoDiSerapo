@@ -292,8 +292,9 @@ footer {
   border-radius: 5px 5px 0 0;
   background: url('/images/rgbapng/ffffff7f-5.png?1403881927');
   background: rgba(255, 255, 255, 0.5);
+  padding: 1.5em 0 !important;
 }
-/* line 68, ../sass/_layout.scss */
+/* line 69, ../sass/_layout.scss */
 footer .region-footer {
   font-size: 14px;
   line-height: 20px;
@@ -302,13 +303,31 @@ footer .region-footer {
   text-align: center;
 }
 
-/* line 76, ../sass/_layout.scss */
-a.left.carousel-control,
-a.right.carousel-control {
+/* line 77, ../sass/_layout.scss */
+.homepage .main-container.container {
+  margin-top: -14px;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid red;
+  padding: 0;
+}
+/* line 85, ../sass/_layout.scss */
+.homepage h1.page-header {
+  display: none;
+}
+/* line 90, ../sass/_layout.scss */
+.homepage .col-sm-12,
+.homepage .row {
+  margin: 0;
+  padding: 0;
+}
+/* line 95, ../sass/_layout.scss */
+.homepage a.left.carousel-control,
+.homepage a.right.carousel-control {
   height: 94%;
 }
 
-/* line 84, ../sass/_layout.scss */
+/* line 104, ../sass/_layout.scss */
 .collections h3 {
   font-size: 20px;
   line-height: 40px;
@@ -318,13 +337,13 @@ a.right.carousel-control {
 }
 
 /*Some CSS*/
-/* line 91, ../sass/_layout.scss */
+/* line 111, ../sass/_layout.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* line 96, ../sass/_layout.scss */
+/* line 116, ../sass/_layout.scss */
 .magnify {
   width: 100%;
   margin: 14px auto;
@@ -332,7 +351,7 @@ a.right.carousel-control {
 }
 
 /*Lets create the magnifying glass*/
-/* line 103, ../sass/_layout.scss */
+/* line 123, ../sass/_layout.scss */
 .large {
   width: 175px;
   height: 175px;
@@ -345,63 +364,63 @@ a.right.carousel-control {
 }
 
 /*To solve overlap bug at the edges during magnification*/
-/* line 119, ../sass/_layout.scss */
+/* line 139, ../sass/_layout.scss */
 .small {
   display: block;
   width: 100%;
 }
 
-/* line 124, ../sass/_layout.scss */
+/* line 144, ../sass/_layout.scss */
 .deco-blight {
   background: url("/img/5-Serapea-DECO-BLIGHT-code-S-DB011.jpg") no-repeat;
 }
 
-/* line 128, ../sass/_layout.scss */
+/* line 148, ../sass/_layout.scss */
 .deco-garnet {
   background: url("/img/6-Serapea-DECO-GARNET-code-S-DG012.jpg") no-repeat;
 }
 
-/* line 132, ../sass/_layout.scss */
+/* line 152, ../sass/_layout.scss */
 .deco-reef {
   background: url("/img/7-Serapea-DECO-REEF-code-S-DR013.jpg") no-repeat;
 }
 
-/* line 136, ../sass/_layout.scss */
+/* line 156, ../sass/_layout.scss */
 .finis-cobalt {
   background: url("/img/8-Serapea-COBALT.jpg") no-repeat;
 }
 
-/* line 140, ../sass/_layout.scss */
+/* line 160, ../sass/_layout.scss */
 .finis-rose {
   background: url("/img/9-Serapea-FINIS-ROSE-code-S-FR022.jpg") no-repeat;
 }
 
-/* line 144, ../sass/_layout.scss */
+/* line 164, ../sass/_layout.scss */
 .pardus {
   background: url("/img/10-Serapea-PARDUS-code-S-PA030.jpg") no-repeat;
 }
 
-/* line 148, ../sass/_layout.scss */
+/* line 168, ../sass/_layout.scss */
 .bluette {
   background: url("/img/3-Serapea-TEMPESTAS-IN-BLUETTE-code-S-TV003.jpg") no-repeat;
 }
 
-/* line 152, ../sass/_layout.scss */
+/* line 172, ../sass/_layout.scss */
 .forest {
   background: url("/img/4-Serapea-TEMPESTAS-IN-FOREST-code-S-TF004.jpg") no-repeat;
 }
 
-/* line 156, ../sass/_layout.scss */
+/* line 176, ../sass/_layout.scss */
 .grey {
   background: url("/img/1-Serapea-TEMPESTAS-IN-GREY-code-S-TG001.jpg") no-repeat;
 }
 
-/* line 160, ../sass/_layout.scss */
+/* line 180, ../sass/_layout.scss */
 .violet {
   background: url("/img/2-Serapea-TEMPESTAS-IN-VIOLET-code-S-TV002.jpg") no-repeat;
 }
 
-/* line 165, ../sass/_layout.scss */
+/* line 185, ../sass/_layout.scss */
 .carousel-caption p.lead {
   font-size: 15px;
   line-height: 20px;
@@ -409,7 +428,7 @@ a.right.carousel-control {
   line-height: 2rem;
 }
 @media (min-width: 768px) {
-  /* line 165, ../sass/_layout.scss */
+  /* line 185, ../sass/_layout.scss */
   .carousel-caption p.lead {
     font-size: 45px;
     line-height: 40px;
@@ -418,20 +437,20 @@ a.right.carousel-control {
   }
 }
 
-/* line 173, ../sass/_layout.scss */
+/* line 193, ../sass/_layout.scss */
 .submitted {
   display: none;
 }
 
-/* line 177, ../sass/_layout.scss */
+/* line 197, ../sass/_layout.scss */
 .social-bar {
   margin-top: 0.5em;
 }
-/* line 179, ../sass/_layout.scss */
+/* line 199, ../sass/_layout.scss */
 .social-bar ul {
   display: inline;
 }
-/* line 181, ../sass/_layout.scss */
+/* line 201, ../sass/_layout.scss */
 .social-bar ul li {
   font-size: 30px;
   line-height: 25px;
@@ -439,12 +458,13 @@ a.right.carousel-control {
   line-height: 2.5rem;
   float: right;
   margin-left: 0.5em;
+  display: block;
 }
-/* line 185, ../sass/_layout.scss */
+/* line 206, ../sass/_layout.scss */
 .social-bar ul li a {
   color: #070845;
 }
-/* line 187, ../sass/_layout.scss */
+/* line 208, ../sass/_layout.scss */
 .social-bar ul li a:hover {
   color: #cc9c3d;
 }

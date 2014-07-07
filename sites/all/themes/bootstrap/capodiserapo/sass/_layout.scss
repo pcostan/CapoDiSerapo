@@ -65,6 +65,7 @@ a.logo.navbar-btn {
 footer {
   @include border-radius (5px 5px 0 0);
   @include rgba-background(rgba(255, 255, 255,0.5));
+  padding: 1.5em 0!important;
   .region-footer {
     @include font-size (14, 20);
     text-align: center;
@@ -72,9 +73,28 @@ footer {
 }
 
 // homepage
-a.left.carousel-control,
-a.right.carousel-control {
-  height: 94%;
+.homepage {
+  .main-container.container {
+    margin-top: -14px;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid red;
+    padding: 0;
+  }
+
+  h1.page-header {
+    display: none;
+  }
+
+.col-sm-12,
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+  a.left.carousel-control,
+  a.right.carousel-control {
+    height: 94%;
+  }
 }
 
 
@@ -182,6 +202,7 @@ a.right.carousel-control {
       @include font-size (30, 25);
       float: right;
       margin-left: 0.5em;
+      display: block;
       a {
         color: $cap-blue;
         &:hover {

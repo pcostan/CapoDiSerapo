@@ -3,6 +3,9 @@
 <head profile="<?php print $grddl_profile; ?>">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Capo di Serapo - The first unique Serapea online collection will be for sale in May!">
+  <meta name="keywords" content="Serapea, Serapo, Capo, Cape, Scarf, Men-scarf, Women-scarf, Fashion, Serapeum, Serapis-Hellenic, Cajeta, Silk, Serapis, greek-mythology-fashion, Italian-fashion, North-African-fashion, Head-scarf, Head-garment, Hand-made-scarves, Exclusive-scarves" />
+  <meta name="author" content="Paul Costan">
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
