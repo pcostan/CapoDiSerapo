@@ -325,10 +325,6 @@ footer .region-footer {
 .homepage a.right.carousel-control {
   height: 97.5%;
 }
-/* line 100, ../sass/_layout.scss */
-.homepage #myCarousel .carousel-inner {
-  height: 700px;
-}
 /* line 105, ../sass/_layout.scss */
 .homepage p:last-child {
   margin-bottom: -20px;
