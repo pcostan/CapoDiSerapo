@@ -489,6 +489,15 @@ footer.footer .region-footer {
 }
 
 /* line 240, ../sass/_layout.scss */
+.page-terms-conditions h4,
+.page-policy h4 {
+  font-size: 20px;
+  line-height: 25px;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 0.5em;
+}
+/* line 244, ../sass/_layout.scss */
 .page-terms-conditions .panel-2col .panel-col-first,
 .page-policy .panel-2col .panel-col-first {
   width: 100%;
@@ -497,7 +506,7 @@ footer.footer .region-footer {
   display: inline;
 }
 @media (min-width: 768px) {
-  /* line 240, ../sass/_layout.scss */
+  /* line 244, ../sass/_layout.scss */
   .page-terms-conditions .panel-2col .panel-col-first,
   .page-policy .panel-2col .panel-col-first {
     width: 48.98785%;
@@ -506,7 +515,7 @@ footer.footer .region-footer {
     display: inline;
   }
 }
-/* line 247, ../sass/_layout.scss */
+/* line 251, ../sass/_layout.scss */
 .page-terms-conditions .panel-2col .panel-col-last,
 .page-policy .panel-2col .panel-col-last {
   width: 100%;
@@ -515,7 +524,7 @@ footer.footer .region-footer {
   display: inline;
 }
 @media (min-width: 768px) {
-  /* line 247, ../sass/_layout.scss */
+  /* line 251, ../sass/_layout.scss */
   .page-terms-conditions .panel-2col .panel-col-last,
   .page-policy .panel-2col .panel-col-last {
     width: 48.98785%;

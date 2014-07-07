@@ -237,6 +237,10 @@ footer.footer {
 // t&c / policy
 .page-terms-conditions,
 .page-policy {
+  h4 {
+    @include font-size (20, 25);
+    margin-bottom: 0.5em;
+  }
   .panel-2col .panel-col-first {
     @include span-columns (12);
     @include breakpoint ($tablet) {
