@@ -93,10 +93,24 @@ footer {
   }
   a.left.carousel-control,
   a.right.carousel-control {
-    height: 94%;
+    height: 97.5%;
   }
-}
 
+  #myCarousel {
+    .carousel-inner {
+      height: 700px;
+    }
+  }
+
+  p:last-child {
+      margin-bottom: -20px;
+  }
+
+  .carousel-caption {
+    margin-bottom: 7%;
+  }
+
+}
 
 //collections
 
