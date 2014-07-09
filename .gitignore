@@ -9,3 +9,6 @@ test2/sites/all/themes/bootstrap/capodiserapo/.sass-cache
 
 sites/all/themes/bootstrap/capodiserapo/.sass-cache/*
 sites/all/themes/bootstrap/capodiserapo/.sass-cache
+
+sites/default/files/css/*
+sites/default/files/js/*
