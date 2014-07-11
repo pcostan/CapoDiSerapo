@@ -111,7 +111,12 @@ footer.footer {
   }
 
   .carousel-caption {
+    left: 10%;
     margin-bottom: 7%;
+    position: absolute;
+    top: 12%;
+    width: 28%;
+    border: 1px solid red;
   }
 
   footer.footer {
