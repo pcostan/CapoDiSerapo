@@ -14,9 +14,9 @@ a.logo.navbar-btn {
     left: 43%;
   }
   img {
-    width: 100px;
+    width: 70px;
     @include breakpoint ($tablet, $no-query) {
-    width: 58%;
+    width: 26%;
     }
   }
 }

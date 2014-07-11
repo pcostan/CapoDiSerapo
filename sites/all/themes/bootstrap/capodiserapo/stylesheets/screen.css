@@ -195,12 +195,12 @@ a.logo.navbar-btn {
 }
 /* line 16, ../sass/_layout.scss */
 a.logo.navbar-btn img {
-  width: 100px;
+  width: 70px;
 }
 @media (min-width: 768px) {
   /* line 16, ../sass/_layout.scss */
   a.logo.navbar-btn img {
-    width: 58%;
+    width: 26%;
   }
 }
 
