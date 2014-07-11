@@ -185,12 +185,12 @@ body {
 /* line 10, ../sass/_layout.scss */
 a.logo.navbar-btn {
   position: absolute;
-  left: 31%;
+  left: 36%;
 }
 @media (min-width: 768px) {
   /* line 10, ../sass/_layout.scss */
   a.logo.navbar-btn {
-    left: 43%;
+    left: 47%;
   }
 }
 /* line 16, ../sass/_layout.scss */
