@@ -1,14 +1,6 @@
-.errordocs
-_db_backups
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
 
-cgi/*
-stats/*
-
-test2/sites/all/themes/bootstrap/capodiserapo/.sass-cache/*
-test2/sites/all/themes/bootstrap/capodiserapo/.sass-cache
-
-sites/all/themes/bootstrap/capodiserapo/.sass-cache/*
-sites/all/themes/bootstrap/capodiserapo/.sass-cache
-
-sites/default/files/css/*
-sites/default/files/js/*
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
