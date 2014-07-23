@@ -1,5 +1,5 @@
 name = Capo Di Serapo
-description = A Bootstrap Sub-theme.
+description = Capo di Serapo theme sub-based from Bootstrap3
 core = 7.x
 base theme = bootstrap
 
