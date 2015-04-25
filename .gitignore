@@ -10,7 +10,7 @@ sites/default/settings.php
 sites/default/files/*
 
 .errordocs/
-_db_backups/
+_db_backups/*.sql
 _backup/
 .htaccess
 *.scssc
