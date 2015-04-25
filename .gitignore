@@ -9,7 +9,7 @@ sites/default/*
 sites/default/settings.php
 sites/default/files/*
 
-.errordocs
-_db_backups
-_backup
-.htaccess
+/.errordocs/
+/_db_backups/
+/_backup/
+/.htaccess
