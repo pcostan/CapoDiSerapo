@@ -13,3 +13,4 @@ sites/default/files/*
 _db_backups/
 _backup/
 .htaccess
+*.scssc
