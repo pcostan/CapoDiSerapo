@@ -16,7 +16,7 @@ a.logo.navbar-btn {
   img {
     width: 70px;
     @include breakpoint ($tablet, $no-query) {
-    width: 26%;
+      width: 60%;
     }
   }
 }
