@@ -8,3 +8,8 @@ sites/*/private
 sites/default/*
 sites/default/settings.php
 sites/default/files/*
+
+.errordocs/
+_db_backups/
+_backup/
+.htaccess
