@@ -7,3 +7,4 @@ sites/*/private
 
 sites/default/*
 sites/default/settings.php
+sites/default/files/*
