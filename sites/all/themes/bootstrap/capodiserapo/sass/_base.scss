@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  @include font-size (16, 20);
+  @include font-size(16, 20);
   // -webkit-font-smoothing: antialiased;
 }
 
@@ -33,10 +33,10 @@ p {
 }
 
 h1 {
-  @include font-size (26, 30); 
+  @include font-size(26, 30);
   margin-bottom: 0.5em;
 }
 h2 {
-  @include font-size (24, 28); 
+  @include font-size(24, 28);
   margin-bottom: 0.5em;
 }

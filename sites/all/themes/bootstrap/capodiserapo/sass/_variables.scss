@@ -20,6 +20,14 @@ $column-width: 4.8em;
 $gutter-width: 1.5em;
 $grid-padding: $gutter-width;
 $container-style: magic;
+
+$susy: (
+  columns: 12,
+  gutter-position: inside,
+  math: fluid,
+  output: float,
+  flow: rtl,
+);
 // $container-style: fluid;
 
 // For IE
