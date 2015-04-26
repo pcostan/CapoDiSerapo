@@ -21,6 +21,7 @@ GEM
       chunky_png (>= 0.8.0)
       compass (>= 0.10.0)
     ffi (1.9.8)
+    ffi (1.9.8-x64-mingw32)
     multi_json (1.11.0)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
@@ -33,6 +34,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   breakpoint (= 2.5.0)
