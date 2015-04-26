@@ -102,6 +102,7 @@ footer.footer {
   a.left.carousel-control,
   a.right.carousel-control {
     height: 89.5%;
+    
     @include breakpoint($tablet) {
       height: 97.5%;
     }
