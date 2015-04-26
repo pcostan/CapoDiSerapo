@@ -4,12 +4,3 @@ sites/*/settings*.php
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
-
-sites/default/*
-sites/default/settings.php
-sites/default/files/*
-
-.errordocs/
-_db_backups/
-_backup/
-.htaccess
