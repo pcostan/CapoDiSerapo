@@ -1,3 +1,4 @@
+// Capo di Serapo styling
 // layout
 body {
   background: url('/img/background.jpg')no-repeat center center fixed; 
@@ -10,12 +11,12 @@ body {
 a.logo.navbar-btn {
   position: absolute;
   left: 36%;
-  @include breakpoint ($tablet, $no-query) {
+  @include breakpoint($tablet, $no-query) {
     left: 47%;
   }
   img {
     width: 70px;
-    @include breakpoint ($tablet, $no-query) {
+    @include breakpoint($tablet, $no-query) {
       width: 60%;
     }
   }
@@ -38,9 +39,8 @@ a.logo.navbar-btn {
 
 .main-container {
   @include rgba-background(rgba(255, 255, 255,0.5));
-  @include breakpoint ($desktop, $no-query) {
-    // margin-top: 60px;
-    @include border-radius (5px);
+  @include breakpoint($desktop, $no-query) {
+    @include border-radius(5px);
   }
   padding-top: 1em;
   padding-bottom: 1em;
@@ -48,28 +48,35 @@ a.logo.navbar-btn {
 
 .right-col {
   @include breakpoint ($tablet, $no-query) {
-    @include span-columns (6, 12);
+    @include span(6 of 12);
     margin-bottom: 1em;
   }
 }
 .left-col {
-  @include breakpoint ($tablet, $no-query) {
-    @include span-columns (6 omega, 12);
+  @include breakpoint($tablet, $no-query) {
+    @include span(6 of 12);
+    @include omega;
   }
   img {
     width: 100%;
     height: auto;
-    @include border-radius (5px);
+    @include border-radius(5px);
   }
 }
 
 footer.footer {
-  @include border-radius (5px 5px 0 0);
+  @include border-radius(5px 5px 0 0);
   @include rgba-background(rgba(255, 255, 255,0.5));
-  padding: 1.5em 0!important;
+  padding: 1.5em;
   .region-footer {
-    @include font-size (14, 20);
     text-align: center;
+
+    p {
+      @include font-size(14, 20);
+      &:last-child {
+        @include font-size(9, 20);
+      }
+    }
   }
 }
 
@@ -95,7 +102,7 @@ footer.footer {
   a.left.carousel-control,
   a.right.carousel-control {
     height: 89.5%;
-    @include breakpoint ($tablet) {
+    @include breakpoint($tablet) {
       height: 97.5%;
     }
   }
@@ -116,11 +123,6 @@ footer.footer {
     position: absolute;
     top: 12%;
     width: 28%;
-    // border: 1px solid red;
-  }
-
-  footer.footer {
-    padding: 1em!important;
   }
 }
 
@@ -210,7 +212,8 @@ footer.footer {
 .carousel-caption {
   p.lead {
     @include font-size (15, 20) ;
-   @include breakpoint ($tablet) {
+
+    @include breakpoint ($tablet) {
       @include font-size (45, 40) ;
    }
   }
@@ -225,7 +228,7 @@ footer.footer {
   ul {
     display: inline;
     li {
-      @include font-size (30, 25);
+      @include font-size(30, 25);
       float: right;
       margin-left: 0.5em;
       display: block;
@@ -243,20 +246,21 @@ footer.footer {
 .page-terms-conditions,
 .page-policy {
   h4 {
-    @include font-size (20, 25);
+    @include font-size(20, 25);
     margin-bottom: 0.5em;
   }
   .panel-2col .panel-col-first {
-    @include span-columns (12);
-    @include breakpoint ($tablet) {
-      @include span-columns (6, 12) ;
+    @include span(12);
+    @include breakpoint($tablet) {
+      @include span(6 of 12) ;
     }
   }
 
   .panel-2col .panel-col-last {
-    @include span-columns (12);
+    @include span(12);
     @include breakpoint ($tablet) {
-      @include span-columns (6 omega, 12) ;
+      @include span(6 of 12);
+      @include omega;
     }
   }
 }
