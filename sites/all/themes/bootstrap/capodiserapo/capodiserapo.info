@@ -42,6 +42,7 @@ stylesheets[all][] = stylesheets/hoverover.css
 ; ;;;;;;;;;;;;;;;;;;;;;
 ; 
 scripts[] = 'js/magnify.js'
+; scritps[] = ''
 ; scripts[] = 'bootstrap/js/affix.js'
 ; scripts[] = 'bootstrap/js/alert.js'
 ; scripts[] = 'bootstrap/js/button.js'
