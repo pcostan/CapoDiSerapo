@@ -1,0 +1,21 @@
+{
+  "name": "capodiserapo",
+  "version": "1.0.0",
+  "description": "Capo build",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "sass": "^0.5.0"
+  },
+  "devDependencies": {
+    "breakpoint": "^0.1.6",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.2.0",
+    "susy": "^2.2.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Costan",
+  "license": "ISC"
+}
