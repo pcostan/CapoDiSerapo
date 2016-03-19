@@ -9,8 +9,10 @@
   },
   "devDependencies": {
     "breakpoint": "^0.1.6",
+    "breakpoint-sass": "^2.7.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
     "susy": "^2.2.12"
   },
   "scripts": {

@@ -6,4 +6,5 @@ sites/*/files
 sites/*/private
 *.scssc
 
+sites/all/themes/bootstrap/capodiserapo/.sass-cache/
 sites/all/themes/bootstrap/capodiserapo/node_modules/

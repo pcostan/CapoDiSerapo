@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
     sass = require('gulp-sass'),
+    sourcemaps = require('gulp-sourcemaps'),
     autoprefixer = require('gulp-autoprefixer');
     // cssnano = require('gulp-cssnano'),
     // jshint = require('gulp-jshint'),
@@ -12,12 +13,16 @@ var gulp = require('gulp'),
     // livereload = require('gulp-livereload'),
     // del = require('del');
 
-gulp.task('styles', function() {
+gulp.task('copy:vendors', function() {
+  return gulp.src(['./node_modules/breakpoint-sass/stylesheets/**/*', './node_modules/susy/sass/**/*'])
+  .pipe(gulp.dest('./sass/vendor/'));
+});
+
+gulp.task('styles', ['copy:vendors'], function() {
   return sass('sass/*.scss')
+    .pipe(sourcemaps.init())
+    .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer('last 2 version'))
-    .pipe(gulp.dest('dist/stylesheets/screen.css'))
-    // .pipe(rename({suffix: '.min'}))
-    // .pipe(cssnano())
-    // .pipe(gulp.dest('dist/stylesheets/screen.css'))
-    // .pipe(notify({ message: 'Styles task complete' }));
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('dist/stylesheets/screen.css'));
 });
